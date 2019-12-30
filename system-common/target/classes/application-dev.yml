@@ -4,15 +4,14 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3306/nsdm_db?characterEncoding=utf-8&useSSL=false
-  jpa:
-    show-sql: true
-  jackson:
-    default-property-inclusion: non_null
-  redis:
-    host: 127.0.0.1
-    port: 6379
-server:
-  context-path: /sell
+#  jpa:
+#    show-sql: true
+#  jackson:
+#    default-property-inclusion: non_null
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"
@@ -20,10 +19,3 @@ server:
 #  file: /var/log/tomcat/sell.log
 #  level:
 #    com.imooc.LoggerTest: debug
-
-#logging:
-#  level:
-#    com.imooc.dataobject.mapper: trace
-    
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
