@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: system-gen
+Implementation-Version: 1.0.0
+Built-By: CTVIT
+Implementation-Vendor-Id: com.cctv
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://maven.apache.org/system-gen
+Created-By: Maven Integration for Eclipse
+
