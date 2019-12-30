@@ -7,6 +7,7 @@ spring:
   
 server:
   context-path: /common
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"
@@ -14,4 +15,3 @@ server:
 #  file: /var/log/tomcat/sell.log
 #  level:
 #    com.imooc.LoggerTest: debug
-  
